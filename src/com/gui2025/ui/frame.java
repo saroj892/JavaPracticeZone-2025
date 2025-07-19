@@ -1,4 +1,4 @@
-package com.gui2025;
+package com.gui2025.ui;
 
 import java.awt.Color;
 import java.awt.event.ActionEvent;

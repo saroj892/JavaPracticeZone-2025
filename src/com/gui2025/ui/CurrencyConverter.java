@@ -39,8 +39,8 @@ public class CurrencyConverter {
                 try {
                     double npr = Double.parseDouble(textNPR.getText());
 
-                    double inr = npr * 0.63;   // Example: 1 NPR = 0.63 INR
-                    double usd = npr * 0.0075; // Example: 1 NPR = 0.0075 USD
+                    double inr = npr * 0.63;  
+                    double usd = npr * 0.0075;
 
                     textINR.setText(String.format("%.2f", inr));
                     textUSD.setText(String.format("%.2f", usd));

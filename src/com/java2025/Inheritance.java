@@ -1,11 +1,9 @@
 package com.java2025;
 
-// Superclass
 class Person {
     String name;
     int age;
 
-    // Superclass constructor
     Person(String name, int age) {
         this.name = name;
         this.age = age;
@@ -18,11 +16,9 @@ class Person {
     }
 }
 
-// Subclass
 class Employee extends Person {
     String department;
 
-    // Subclass constructor that reuses the superclass constructor
     Employee(String name, int age, String department) {
         super(name, age); // Call to superclass constructor
         this.department = department;
@@ -35,7 +31,6 @@ class Employee extends Person {
     }
 }
 
-// Main class
 public class Inheritance {
     public static void main(String[] args) {
         Employee emp = new Employee("Sita", 28, "Finance");
